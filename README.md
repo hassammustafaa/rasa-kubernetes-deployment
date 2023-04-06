@@ -9,6 +9,6 @@ Kubernetes 1.14+
 
 Now create an empty values.yml file and copy it from rasa official helm repositry into values.yaml file and set you own unique configurations
 
-#Helm deploy cmd
+# Helm deploy cmd
 
 helm upgrade --namespace tenant-7654b5-pilot --reuse-values values.yml rasa/rasa
