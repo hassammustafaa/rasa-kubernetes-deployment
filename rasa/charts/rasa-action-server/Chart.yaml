@@ -1,0 +1,22 @@
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Add support for adding labels to the rasa-action-server service
+apiVersion: v2
+appVersion: 2.7.0
+dependencies:
+- name: rasa-common
+  repository: https://helm.rasa.com
+  tags:
+  - rasa-common
+  version: 1.x.x
+description: Rasa Action Server Helm chart for Kubernetes
+icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZPsa-h0ilYPCFaQmf21MFMyVH7oyvrfnJHwvGOJVlMIeTiakBJTSwGd2cDFcF5AsEiY&usqp=CAU
+maintainers:
+- email: hi@rasa.com
+  name: Rasa
+name: rasa-action-server
+sources:
+- https://github.com/RasaHQ/helm-charts/tree/main/charts/rasa-action-server
+type: application
+version: 1.0.6

@@ -1,0 +1,27 @@
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Issue with default value not being accessed
+      links:
+        - name: Github Issue
+          url: https://github.com/RasaHQ/helm-charts/issues/40
+  category: Infrastructure
+apiVersion: v2
+appVersion: 1.0.2
+description: A Library Helm Chart for grouping common logic between rasa charts.
+home: https://github.com/RasaHQ/charts/tree/master/charts/rasa-common
+icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZPsa-h0ilYPCFaQmf21MFMyVH7oyvrfnJHwvGOJVlMIeTiakBJTSwGd2cDFcF5AsEiY&usqp=CAU
+keywords:
+- common
+- template
+- function
+- rasa
+maintainers:
+- email: hi@rasa.com
+  name: Rasa
+name: rasa-common
+sources:
+- https://github.com/RasaHQ/helm-charts/charts/rasa-common
+- https://rasa.com/
+type: library
+version: 1.0.2

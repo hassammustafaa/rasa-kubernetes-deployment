@@ -1,0 +1,23 @@
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Bump to duckling 0.2.0.2
+apiVersion: v2
+appVersion: 0.2.0.2-r0
+dependencies:
+- name: rasa-common
+  repository: https://helm.rasa.com
+  tags:
+  - rasa-common
+  version: 1.x.x
+description: Duckling is a Haskell library that parses text into structured data.
+maintainers:
+- email: hi@rasa.com
+  name: Rasa
+name: duckling
+sources:
+- https://github.com/RasaHQ/duckling
+- https://github.com/facebook/duckling
+- https://github.com/RasaHQ/helm-charts/tree/main/charts/duckling
+type: application
+version: 1.1.4
